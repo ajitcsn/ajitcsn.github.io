@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="../style.css">
   <style>
     body.extension-home { height: 100svh; overflow: hidden; }
-    .extension-home main { height: 100%; overflow: hidden; padding: clamp(16px, 3vh, 30px) 28px; }
-    .extension-home nav { padding-bottom: clamp(20px, 4vh, 40px); }
-    .extension-home .hero { padding: clamp(16px, 4vh, 34px) 0 clamp(22px, 5vh, 52px); }
-    .extension-home .principles { margin-top: 14px; }
+    .extension-home main { height: 100%; overflow: hidden; padding: 20px 28px; }
+    .extension-home nav { padding-bottom: 16px; }
+    .extension-home .hero { padding: 12px 0 24px; }
+    .extension-home .hero h1 { font-size: clamp(48px, 5.2vw, 64px); margin: 8px 0 14px; }
+    .extension-home .lede { font-size: 17px; line-height: 1.4; }
+    .extension-home .steps article,
+    .extension-home .principles { padding: 18px; }
+    .extension-home .steps h2,
+    .extension-home .principles h2 { margin: 12px 0 8px; }
+    .extension-home .principles { max-width: 100%; margin-top: 12px; }
     @media (max-width: 680px) {
       .extension-home main { padding: 16px 18px; }
       .extension-home nav { padding-bottom: 18px; }
